@@ -1,4 +1,3 @@
-export DANCEBIN_URL=http://paste.b10m.net/
 export EDITOR=/usr/bin/vim
 
 alias xml="xmllint --format -"
@@ -10,3 +9,8 @@ for SCRIPT in ~/.bashrc.d/*.sh
 do
     source $SCRIPT
 done
+
+if [ -f ~/.bashrc.local ]
+then
+    source ~/.bashrc.local
+fi
