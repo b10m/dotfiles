@@ -17,6 +17,6 @@ tmux:
 	@echo "tmux installed"
 
 vim:
-	@ln -fs $(SRCDIR)/.vim 			$(HOME)/.vim
+	@ln -fs $(SRCDIR)/.vimrc 		$(HOME)/.vimrc
 	@echo "vim installed"
 
