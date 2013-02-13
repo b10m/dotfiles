@@ -20,3 +20,4 @@ set expandtab
 set listchars=tab:>~,trail:_
 set list
 set smartindent
+set nofoldenable
