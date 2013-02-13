@@ -1,3 +1,4 @@
+export PATH=$PATH:~/bin
 export EDITOR=/usr/bin/vim
 
 alias xml="xmllint --format -"
