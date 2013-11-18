@@ -10,8 +10,9 @@ alias pbpaste='xclip -selection clipboard -o'
 # random album support (the way I like it; like this)
 random_album() {
     DIR=$(find ~/music/ -maxdepth 2 -mindepth 2 -type d | sort --random-sort | head -1);
+    clementine --stop
     clementine --load "$DIR"/*.mp3
-    clementine --next
+    clementine --play
 }
 
 for SCRIPT in ~/.bashrc.d/*.sh
