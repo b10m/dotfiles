@@ -15,6 +15,9 @@ random_album() {
     clementine --play
 }
 
+# Perlbrew rocks
+source ~/perl5/perlbrew/etc/bashrc
+
 for SCRIPT in ~/.bashrc.d/*.sh
 do
     source $SCRIPT
