@@ -17,7 +17,9 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set listchars=tab:>~,trail:_
+set listchars=tab:>~,trail:.
 set list
 set smartindent
 set nofoldenable
+
+color elflord
