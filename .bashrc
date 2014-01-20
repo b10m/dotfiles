@@ -5,6 +5,7 @@ alias xml="xmllint --format -"
 alias nopaste="/usr/bin/nopaste -s Dancebin"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias http='TERM=xterm-256color http --style solarized'
 
 # clementine is an awesome music player, but lacks
 # random album support (the way I like it; like this)
