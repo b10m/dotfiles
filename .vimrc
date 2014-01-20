@@ -21,5 +21,5 @@ set listchars=tab:>~,trail:.
 set list
 set smartindent
 set nofoldenable
-
 color elflord
+nnoremap ; :
