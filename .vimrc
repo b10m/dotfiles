@@ -1,4 +1,5 @@
 autocmd BufNewFile,BufRead /tmp/* set tw=68
+autocmd BufRead * inoremap # X<c-h>#
 syntax on
 
 " Formatting the current paragraph according to
