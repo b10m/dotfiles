@@ -1,5 +1,4 @@
 autocmd BufNewFile,BufRead /tmp/* set tw=68
-autocmd BufRead * inoremap # X<c-h>#
 syntax on
 
 " Formatting the current paragraph according to
@@ -24,3 +23,6 @@ set smartindent
 set nofoldenable
 color elflord
 nnoremap ; :
+set smartindent
+inoremap # X#
+set autoindent
